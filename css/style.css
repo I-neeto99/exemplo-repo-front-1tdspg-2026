@@ -1,26 +1,38 @@
+h1{
+    color: rgb(255, 253, 253);
+}
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin:10% 10px 10px 10px;
     font-size: 16px;
 }
 header{
-    background-color: green;
+    background-color: rgb(17, 70, 17);
     margin: 0 auto;
     width: 70%;
 }
-li{
-    background-color: whitesmoke;
-    margin: 0 auto;
-    width: 70%;
+ul li{
+    float: left;
+}
+ul li a{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 nav{
-    background-color: yellow;
+   
     margin: 0 auto;
     width: 100%;
 }
 ul {
-  background-color: chocolate;  
+  background-color:  rgb(41, 109, 41);  
     list-style-type: none;
   margin: 0;
   padding: 0;
+  overflow: hidden;
+}
+ul li a:hover {
+  background-color: black
 }
